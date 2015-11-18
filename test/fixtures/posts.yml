@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  smartphone: MyString
+  descripcion: MyText
+  lanzamiento: 2015-11-15
+
+two:
+  smartphone: MyString
+  descripcion: MyText
+  lanzamiento: 2015-11-15

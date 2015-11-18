@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @pagina.nombre %>
+</p>
+
+<p>
+  <strong>Mensaje:</strong>
+  <%= @pagina.Mensaje %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @pagina.fecha %>
+</p>
+
+<%= link_to 'Edit', edit_pagina_path(@pagina) %> |
+<%= link_to 'Back', paginas_path %>
